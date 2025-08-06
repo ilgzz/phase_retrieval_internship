@@ -1,0 +1,16 @@
+# ignore OS-specific stuff
+.DS_Store
+.idea
+
+# ignore build artifacts
+dist/
+build/
+
+
+# ignore everything in a specific folder
+/BTE5476*
+
+# ignore a particular file
+autocorrelation.mp3
+fft_and_ifft.mp3
+frft.ipynb
